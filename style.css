@@ -2,6 +2,20 @@
 Theme Name: Test Theme
 Author: Rasheeda
 */
+/* .container-fluid {
+  background-color: #016ef4;
+} */
+.navbar {
+  background-color: #016ef4;
+}
+.navbar-nav ul {
+  list-style-type: none;
+}
+.nav-link {
+  color: #fff;
+}
+html,
 body {
-  background-color: black;
+    height: 100%;
+    margin: 0;
 }
