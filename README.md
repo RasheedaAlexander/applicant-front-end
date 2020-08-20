@@ -1,2 +1,2 @@
 # applicant-front-end
-A simple, mobile-friendly wordpress site
+A simple, mobile-friendly WordPress theme
