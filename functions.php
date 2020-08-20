@@ -65,9 +65,15 @@ function special_nav_class ($classes, $item) {
   return $classes;
 }
 
+add_theme_support('custom-logo', array(
+	'flex-height' => true,
+	'flex-width'  => true,
+	'header-text' => array('site-title', 'site-description'),
+) );
+
 // register theme support
 add_theme_support('menus');
-add_theme_support( 'post-thumbnails' );
+add_theme_support('post-thumbnails');
 
 // customize read more text in have_posts
 function modify_read_more_link() {

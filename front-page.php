@@ -2,14 +2,11 @@
 <div class="container-fluid">
 
 
-    <?php
-
-            while ( have_posts() ) : the_post();?>
+    <?php while ( have_posts() ) : the_post();?>
 <div class="row">
     <div class="col-md-7">
 
-      <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-fluid mt-3', 'id' => 'feature-img', 'title' => 'Feature image']);?>
-
+      <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid mt-3', 'id' => 'feature-img', 'title' => 'Feature image'));?>
 
     </div>
 
@@ -23,7 +20,7 @@
 
       </h3>
 
-    <?php the_content($more_link_text , $strip_teaser );?>
+    <h1><?php the_content($more_link_text , $strip_teaser);?></h1>
 
     </div>
 

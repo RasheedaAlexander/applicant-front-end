@@ -15,6 +15,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <?php
+         $custom_logo_id = get_theme_mod( 'custom_logo' );
+         $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+            ?>
 
     <a class="navbar-brand" href="<?php bloginfo('url')?>">
       <img src="./wp-content/themes/applicant-front-end/img/logo.svg" alt="hamburger logo">
