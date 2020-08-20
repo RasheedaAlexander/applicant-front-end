@@ -30,12 +30,10 @@ function load_stylesheets()
   wp_register_script('customjs', get_template_directory_uri() . '/js/script.js', array(),false, true);
   wp_enqueue_script('customjs');
 
-
   /*resetCSS*/
-  wp_register_style('normalizecss', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css', array(), false, '2.0');
-  wp_enqueue_style('normalizecss');
+  wp_register_style('resetcss', 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css', array(), false, '2.0');
+  wp_enqueue_style('resetcss');
   /*Ends*/
-
 
 wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), false, 'all');
 wp_enqueue_style('bootstrap');

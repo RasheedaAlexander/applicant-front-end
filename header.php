@@ -1,7 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html id="my-html" lang="en">
   <head>
     <title>Rasheeda's WP Theme</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
   </head>
@@ -14,14 +15,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-    <a class="navbar-brand pl-1 mx-sm-0" href="<?php bloginfo('url')?>">
+
+    <a class="navbar-brand" href="<?php bloginfo('url')?>">
       <img src="./wp-content/themes/applicant-front-end/img/logo.svg" alt="hamburger logo">
     </a>
 
     <span class="navbar-text d-none d-md-block pl-2 text-white">Eats.</span>
   </nav>
 
-<nav class="navbar navbar-expand-md navbar-dark flex-row pt-0 pb-0 nav-links">
+<nav class="navbar navbar-expand-md navbar-dark flex-row nav-links">
   <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
     <?php
     wp_nav_menu( array(

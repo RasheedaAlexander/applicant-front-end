@@ -2,52 +2,81 @@
 Theme Name: Test Theme
 Author: Rasheeda
 */
+/* @include media-breakpoint-between(xs, sm) {
+  .navbar-brand {
+  background-color: green;
+}
+} */
+a {
+  text-decoration: underline;
+}
 
- a {
-   text-decoration: underline;
- }
- #my-html {
-     height: 100%;
-     margin: 0 !important;
- }
- .bg-primary {
-   color: black !important;
- }
-.navbar-toggler .navbar-toggler-icon{
+h3.blog-title {
+  font-weight: 400;
+}
+
+a, p {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.bg-primary {
+  color: black !important;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
   background-image: url("./icons/menu.svg");
 }
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: url("./icons/close.svg");
-  /* background-color: red; */
 }
-ul #menu-main-menu
-.navbar-nav ul {
+
+ul#menu-main-menu .navbar-nav {
   list-style-type: none;
 }
+
 nav.navbar.navbar-expand-md.navbar-dark {
   background-color: #016ef4;
 }
-a.nav-link:active, a.nav-link:hover {
-    background-color: #023470;
-    color: yellow;
-}
-nav.navbar.navbar-expand-md.navbar-dark.flex-row.pt-0.pb-0.nav-links
-{
+
+nav.navbar.navbar-expand-md.navbar-dark.flex-row.nav-links {
+  padding: 0;
   background-color: #024eae;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
+
+.navbar-collapse {
+  padding: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:active {
-    color: #b59a36;
+  background-color: #023470;
+  color: #b59a36;
 }
+
 .blog-title a,
 .more-link {
   color: #d15c24;
 }
-#menu-main-menu {
-  justify-content: space-between;
-}
-img#feature-img {
-  width: 100%;
+
+.date {
+  color: #a7a7a7;
 }
