@@ -1,0 +1,75 @@
+/*
+Theme Name: Test Theme
+Author: Rasheeda
+*/
+a {
+  text-decoration: underline;
+}
+
+h3.blog-title {
+  font-weight: 400;
+}
+
+/* a, p {
+  font-size: 16px;
+  line-height: normal;
+} */
+
+.bg-primary {
+  color: black !important;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("./icons/menu.svg");
+    width: 1em;
+    height: 1em;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-image: url("./icons/close.svg");
+}
+
+.custom-logo{
+  width: 50px;
+  height: 38.36px;
+}
+
+ul#menu-main-menu .navbar-nav {
+  list-style-type: none;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark {
+  background-color: #016ef4;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.flex-row.nav-links {
+  padding: 0;
+  background-color: #024eae;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link[aria-current="page"]:hover,
+.navbar-dark .navbar-nav .active>.nav-link[aria-current="page"]:active {
+  background-color: #023470;
+  color: #b59a36!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-collapse {
+  padding: 15px;
+}
+
+.blog-title a,
+.more-link {
+  color: #d15c24;
+}
+
+.date {
+  color: #a7a7a7;
+}
